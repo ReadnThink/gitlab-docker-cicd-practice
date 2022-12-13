@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MessageController {
     @GetMapping("")
     public ResponseEntity<String> message() {
-        return ResponseEntity.ok().body("Hello");
+        return ResponseEntity.ok().body("bye");
     }
 }
